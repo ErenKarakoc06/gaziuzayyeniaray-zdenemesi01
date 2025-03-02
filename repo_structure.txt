@@ -1,0 +1,32 @@
+Gazi_Uzay_Arayuz_deneme/
+├── README.md
+├── requirements.txt
+├── main.py
+├── config/
+│   ├── __init__.py
+│   ├── settings.json
+│   └── themes/
+├── logs/
+├── ui/
+│   ├── __init__.py
+│   ├── main_window.py
+│   ├── hud_customization.py
+│   ├── hardware_test.py
+│   ├── script_engine.py
+│   ├── log_analyzer.py
+│   ├── rtk_gps_manager.py
+│   └── widgets/
+├── protocols/
+│   ├── __init__.py
+│   └── custom_protocols.py
+├── utils/
+│   ├── __init__.py
+│   ├── weather.py
+│   ├── mission.py
+│   └── mavlink_handler.py
+├── assets/
+│   ├── icons/
+│   └── sounds/
+└── docs/
+    ├── installation.md
+    └── user_guide.md

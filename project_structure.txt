@@ -1,0 +1,30 @@
+mission_planner/
+├── requirements.txt
+├── main.py
+├── config/
+│   ├── __init__.py
+│   ├── settings.py
+│   └── constants.py
+├── ui/
+│   ├── __init__.py
+│   ├── main_window.py
+│   ├── flight_data.py
+│   ├── flight_plan.py
+│   ├── initial_setup.py
+│   ├── terminal.py
+│   └── widgets/
+│       ├── __init__.py
+│       ├── artificial_horizon.py
+│       ├── compass.py
+│       ├── status_bar.py
+│       └── vehicle_status.py
+├── services/
+│   ├── __init__.py
+│   ├── vehicle_connection.py
+│   ├── mavlink_handler.py
+│   ├── telemetry_logger.py
+│   └── mission_handler.py
+└── utils/
+    ├── __init__.py
+    ├── coordinates.py
+    └── configuration.py
