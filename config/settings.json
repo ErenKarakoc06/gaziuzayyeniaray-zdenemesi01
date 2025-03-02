@@ -1,0 +1,30 @@
+{
+    "app_info": {
+        "name": "Gazi Uzay Arayüz",
+        "version": "1.0.0",
+        "created_at": "2025-03-02 18:46:46",
+        "created_by": "ErenKarakoc06"
+    },
+    "connection": {
+        "default_port": "/dev/ttyUSB0",
+        "default_baud": 57600,
+        "connection_timeout": 30
+    },
+    "rtk": {
+        "default_ntrip_server": "rtk.gazi.edu.tr",
+        "default_ntrip_port": 2101
+    },
+    "ui": {
+        "theme": "dark",
+        "language": "tr",
+        "window_size": {
+            "width": 1280,
+            "height": 720
+        }
+    },
+    "logging": {
+        "log_level": "INFO",
+        "log_directory": "logs/",
+        "max_log_files": 100
+    }
+}
